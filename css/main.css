@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("../img/jared-rice-NTyBbu66_SI-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div {
+  position: absolute;
+  bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+i {
+  color: #cacaca;
+}
+
+p {
+  color: #cacaca;
+  font-family: 'Titillium Web', sans-serif;"
+}
+
+@media (min-width: 451px) {
+  i {
+    font-size: 200px;
+  }
+  p {
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 450px) {
+  i {
+    font-size: 100px;
+  }
+  p {
+    font-size: 30px;
+  }
+}
